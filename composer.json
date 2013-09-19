@@ -21,7 +21,7 @@
     "suggest": {
     },
     "autoload": {
-        "yandex-api": {"Yandex": "lib/"}
+        "psr-0": {"Yandex": "lib/"}
     },
     "extra": {
         "branch-alias": {
