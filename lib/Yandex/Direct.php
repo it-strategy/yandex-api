@@ -106,7 +106,7 @@ class Direct {
     }
 
     public function UpdatePrices($prices) {
-        foreach (array_chunk($prices, 3000) as $p) {
+        foreach (array_chunk($prices, 1000) as $p) {
             $this->response('UpdatePrices', $p);
         }
         return true;
